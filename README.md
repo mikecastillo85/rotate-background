@@ -14,7 +14,7 @@ A simple background text with css rotate transform.
      <span class="rotate" data-title="text on background"></span>
   </h3>
 ```
--CSS
+- CSS
 
 ```css
   h3 span {
