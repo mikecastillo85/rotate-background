@@ -33,3 +33,11 @@ A simple background text with css rotate transform.
     transform: rotate(-2deg)
   }
 ```
+- jQuery
+
+```js
+$('span.rect').each(function(){
+		var backText = $(this).text();
+		$(this).next('span.rotate').attr('data-title',backText);
+});
+```
