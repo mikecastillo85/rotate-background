@@ -43,4 +43,4 @@ $('span.rect').each(function(){
 ```
 #Live Demo
 
-[Background Demo]:(https://jsfiddle.net/mikecastillo85/7vabunqs/5/)
+[**Background Text Demo on JSFiddle**](https://jsfiddle.net/mikecastillo85/7vabunqs/5/)
