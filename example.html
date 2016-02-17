@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Background Text Rotate</title>
+    <style>
+      h3 span {
+        position: relative;
+      }
+  
+      h3 span.rotate:before {
+        content: attr(data-title);
+        background: orange;
+        padding: 4px 4px;
+        position:absolute;
+        z-index: -1;
+        color: transparent;
+        right:-5px;
+        margin-top: -4px;
+        transform: rotate(-2deg)
+      }
+    </style>
+  </head>
+  <body>
+    <h3>
+      Text before background 
+      <span class="rect">text on background</span>
+      <span class="rotate" data-title="text on background"></span>
+    </h3>
+  <body>
+  </html>
