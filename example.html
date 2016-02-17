@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Background Text Rotate</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+      $('span.rect').each(function(){
+      		var backText = $(this).text();
+      		$(this).next('span.rotate').attr('data-title',backText);
+      });
+    </script>
     <style>
       h3 span {
         position: relative;
@@ -18,14 +25,15 @@
         color: transparent;
         right:-5px;
         margin-top: -4px;
-        transform: rotate(-2deg)
+        transform: rotate(-2deg);
+        white-space: nowrap;
       }
     </style>
   </head>
   <body>
     <h3>
       Text before background 
-      <span>text on background</span>
+      <span class="rect">text on background</span>
       <span class="rotate" data-title="text on background"></span>
     </h3>
   <body>
