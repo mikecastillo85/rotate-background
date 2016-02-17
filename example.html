@@ -7,10 +7,12 @@
     <title>Background Text Rotate</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
-      $('span.rect').each(function(){
-      		var backText = $(this).text();
-      		$(this).next('span.rotate').attr('data-title',backText);
-      });
+      $(function(){
+	      $('span.rect').each(function(){
+	      		var backText = $(this).text();
+	      		$(this).next('span.rotate').attr('data-title',backText);
+	      });
+      })
     </script>
     <style>
       h3 span {
