@@ -24,7 +24,7 @@ A simple background text with css rotate transform.
   h3 span.rotate:before {
     content: attr(data-title);
     background: orange;
-    padding: 4px 4px;
+    padding: 4px;
     position:absolute;
     z-index: -1;
     color: transparent;
