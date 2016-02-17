@@ -10,8 +10,8 @@ A simple background text with css rotate transform.
 ```html
   <h3>
      Text before background 
-     <span>text on background</span>
-     <span class="rotate" data-title="text on background"></span>
+     <span class="rect">text on background</span>
+     <span class="rotate"></span>
   </h3>
 ```
 - CSS
